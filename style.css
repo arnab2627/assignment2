@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+.container {
+    width: 1280px;
+    margin: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+
+}
+.nav{
+    display: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 10px;
+}
+
+.logo span {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.home {
+    color: orange;
+}
+
+.about {
+    color: blue;
+}
+
+.facilities {
+    color: cyan;
+}
+
+.admission {
+    color: purple;
+}
+
+.contact {
+    background-color: orange;
+    color: white;
+    padding: 12px 44px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+
+
+
+
+/* banner section */
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-content {
+    max-width: 41%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.highlight-orange {
+    color: orange;
+}
+
+.highlight-blue {
+    color: cyan;
+}
+
+p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: black;
+    max-width: 500px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.image {
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-image img {
+    position: relative;
+    max-width: 350px;
+    z-index: 2;
+}
+
+.background-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.blue-shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    border-radius: 50%;
+    top: 20%;
+    left: 10%;
+}
+
+.orange-shape {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 50%;
+    top: 50%;
+    right: 10%;
+}
+
+/* card section */
+
+
+
+
+.cards-section {
+    padding: 50px 0;
+    background: url(bg.png);
+}
+
+.hone {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 31px;
+    padding: inherit;
+}
+
+.card1 {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: linear-gradient(to bottom, #EAF6FF, white);
+}
+
+.card2 {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: linear-gradient(to bottom, #FFF5D9, white);
+}
+
+.card3 {
+    background: white;
+    color: black;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background: linear-gradient(to bottom, #F3E5FF, white);
+}
+
+
+.card img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.readmore1 {
+    font-weight: bold;
+    text-decoration: none;
+    color: #00AEEF;
+}
+
+.readmore2 {
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF9900;
+}
+
+.readmore3 {
+    font-weight: bold;
+    text-decoration: none;
+    color: #8000FF;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+
+
+}
+
+.sliderchild {
+    background: rgb(254, 163, 1);
+    padding: 20px;
+    border-radius: 50px;
+
+}
+
+/* story section */
+.div1 {
+    background: url(bg.png),
+        linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.stories {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+    flex-wrap: wrap;
+    padding: 84px;
+
+}
+
+.main-story {
+    width: 590px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-story img {
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+}
+
+.story-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.date1 {
+    color: white;
+    position: relative;
+    bottom: 40px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.date {
+    color: white;
+    position: relative;
+    bottom: 20px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    left: 5%;
+    border: none;
+}
+
+.blue-bg {
+    background: #00AEEF;
+}
+
+.green-bg {
+    background: #88B04B;
+}
+
+.purple-bg {
+    background: #8000FF;
+}
+
+.light-green-bg {
+    background: #4CAF50;
+}
+
+.dark-green-bg {
+    background: #1B5E20;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.small-stories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    width: 500px;
+}
+
+.story-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.story-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+h4 {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+
+}
+
+.new button {
+
+    cursor: pointer;
+    border-radius: 12px;
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 12px 62px;
+    border: none;
+
+
+
+}
+
+.new button:hover {
+    background-color: #FF9900;
+}
+
+
+.stories-section {
+    padding-bottom: 20px;
+}
+
+
+
+/* footer section */
+footer {
+    background-color: #00AEEF;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 95px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-left {
+    max-width: 40%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+
+}
+
+.logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-left p {
+    margin-top: 10px;
+    line-height: 2;
+}
+
+
+.footer-middle h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-middle ul {
+    list-style: none;
+}
+
+.footer-middle ul li {
+    margin-bottom: 8px;
+}
+
+.footer-middle ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-middle ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-right h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icons a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.icons a img:hover {
+    opacity: 0.7;
+}
+
+/* responsive */
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .school {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .navbar {
+        width: 500px;
+        border-bottom: 1px solid orange;
+
+    }
+
+
+    .image {
+        order: 1;
+        width: 100%;
+
+    }
+
+    .hero-content {
+        order: 2;
+        max-width: 100%;
+
+    }
+
+    .banner {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 0px auto;
+
+
+
+
+    }
+
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .main-story {
+        display: none;
+    }
+
+    .stories-section {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
