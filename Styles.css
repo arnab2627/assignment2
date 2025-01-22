@@ -517,63 +517,73 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 576px) {
-    .container{
+    .container {
         width: 100%;
     }
+
     .school {
         display: none;
     }
 
     .nav-links {
         display: none;
-        
+
     }
 
     .contact {
         display: none;
     }
-    .navbar{
-        width: 420px;
+
+    .navbar {
+        width: 500px;
         border-bottom: 1px solid orange;
-        
+
     }
 
 
-    .image{
+    .image {
         order: 1;
         width: 100%;
-        
+
     }
-    .hero-content{
+
+    .hero-content {
         order: 2;
         max-width: 100%;
 
     }
-    .banner{
+
+    .banner {
         flex-direction: column;
         width: 100%;
         text-align: center;
         margin: 0px auto;
-        
+
 
 
 
     }
 
-    .cards{
-        flex-direction:column;
+    .cards {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
     }
-    .slider{
+
+    .slider {
         display: none;
     }
 
-    .main-story{
+    .main-story {
         display: none;
     }
-.stories-section{
-    width: 100%;
-}
-.footer-container{
-    flex-direction: column  ;
-}
+
+    .stories-section {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
 }
